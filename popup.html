@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator & Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Password Generator</h2>
+    <input type="text" id="generated-password" readonly>
+    <button id="generate-btn">Generate Password</button>
+    <button id="save-btn">Save Password</button>
+    
+    <h3>Saved Passwords</h3>
+    <ul id="saved-passwords"></ul>
+  </div>
+  
+  <script src="password-utils.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
